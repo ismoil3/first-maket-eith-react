@@ -1,0 +1,272 @@
+.navbar {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+.main {
+  width: 90%;
+  margin: auto;
+}
+.navP {
+  display: flex;
+  justify-content: space-between;
+  width: 17%;
+}
+.navP p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.navbar button {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  width: 121px;
+  height: 47px;
+}
+.navbar h1 {
+  color: #192252;
+}
+.block1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  height: 500px;
+}
+.left {
+  width: 507px;
+  height: 144px;
+}
+.left h1 {
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: -0.01em;
+  color: #192252;
+  text-align: left;
+}
+.left p {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+}
+.right {
+  width: 413px;
+  margin: auto;
+  height: 400px;
+  color: #848fac;
+}
+.left button {
+  background-color: #848fac;
+  color: white;
+  border-radius: 10px;
+  width: 157px;
+  height: 47px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 47px;
+  text-align: center;
+  cursor: pointer;
+}
+.block2 {
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+}
+.right1 h1 {
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+
+.right1 p {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: #848fac;
+}
+
+.right1 button {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  width: 157px;
+  height: 47px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 47px;
+  text-align: center;
+  cursor: pointer;
+}
+.right1 {
+  width: 550px;
+  margin-left: 350px;
+}
+.right1 img {
+  width: 384px;
+  height: 576px;
+}
+.block3 {
+  display: flex;
+  align-items: center;
+}
+.rigth3 {
+  width: 384px;
+  height: 384px;
+  margin-left: 300px;
+}
+.left3 {
+  width: 507px;
+  /* height: 400px; */
+}
+.left3 h1 {
+  color: #192252;
+}
+.left3 p {
+  color: #848fac;
+}
+
+.block4 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.rigth4 {
+  width: 384px;
+  height: 384px;
+}
+.left4 {
+  margin-left: 400px;
+  width: 507px;
+  /* height: 400px; */
+}
+.left4 h1 {
+  color: #192252;
+}
+.left4 p {
+  color: #848fac;
+}
+.text {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.text h1 {
+  color: #192252;
+}
+.text p {
+  color: #848fac;
+}
+.text button {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  width: 157px;
+  height: 47px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 47px;
+  text-align: center;
+  cursor: pointer;
+}
+.blocks {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+.blocks h1 {
+  color: #192252;
+}
+.blocks p {
+  color: #848fac;
+}
+.blocks button {
+  border-radius: 10px;
+  width: 157px;
+  height: 47px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 47px;
+  text-align: center;
+  cursor: pointer;
+  background-color: white;
+}
+.blck {
+  width: 384px;
+}
+.detl{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 70px;
+}
+.sec1{
+  width: 384px;
+}
+.sec1 h1{
+ color: #192252;
+}
+.sec1 button{
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  width: 157px;
+  height: 47px;
+  font-family: Inter;
+  /* font-size: 18px; */
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+}
+#ex{
+  background-color: white;
+  color: #192252;
+  border: none;
+}
+.sec2 details{
+ line-height:   30px;
+ border-radius: 10px;
+ border: 1px solid  #192252;
+ margin-bottom: 20px;
+ padding: 20px;
+ width: 384px;
+}
+.futr{
+  margin: auto;
+  text-align: center;
+  width: 793px;
+}
+.furter{
+  background-color: #0B265A;
+  width: 100%;
+  height: 300px;  
+  display: flex;
+  color: white;
+  justify-content: space-around;
+}
+.foo{
+  margin-top: 50px;
+}
+#ass{
+width: 200px;
+height: 200px;
+border: 1px solid black;
+}
